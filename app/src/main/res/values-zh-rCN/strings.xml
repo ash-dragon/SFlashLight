@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">简单的手电筒</string>
+    <string name="action_settings">设置</string>
+    <string name="button_on">开</string>
+    <string name="button_off">关</string>
+
+    <!--color picker-->
+    <string name="no_flash_light_message">您的手机不支持闪光灯</string>
+</resources>

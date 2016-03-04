@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/bg_on_color"
+    tools:context="com.yjh.ben.sflashlight.MainActivity">
+
+    <Button
+        android:id="@+id/btn_flash_light"
+        android:text="@string/button_on"
+        android:layout_width="@dimen/one_key_size"
+        android:layout_height="@dimen/one_key_size"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button_bg"
+        android:gravity="center"
+        android:textColor="@drawable/text_color"
+        android:textSize="25sp" />
+
+</RelativeLayout>
